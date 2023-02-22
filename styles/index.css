@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  margin-right: 20px;
+}
+
+.login-button,
+.register-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-button:hover{
+  background-color: #fff;
+  color: #333;
+}
